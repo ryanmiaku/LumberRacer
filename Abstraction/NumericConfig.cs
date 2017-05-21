@@ -16,7 +16,7 @@ namespace LumberRacer
         public string DisplayText { get; set; }
         public int Step { get; set; }
         public int Min { get; set; }
-        public int Max { get; set; } = 1000;
+        public int Max { get; set; } = 10000;
         public int DefaultValue { get; set; }
     }
 }
